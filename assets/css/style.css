@@ -207,6 +207,10 @@
 }
 .card1:hover .circle-2 path {
     fill: url("#paint0_linear_19268_1847");
+    
+}
+.border-radius-12{
+    border-radius: 12px;
 }
 
 .card1:hover {
