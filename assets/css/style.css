@@ -100,8 +100,8 @@
     color: #4D4D4D;
 }
 
-.bg-color-1 {
-    background-color: #FFFDFD;
+.bg-image-1 {
+    background-image: url(../images/Vector\ \(1\).png);
 }
 
 .min-height-135 {
@@ -184,7 +184,7 @@
 }
 
 .card1:hover {
-    transform: translateY(-6    0px);
+    transform: translateY(-60px);
     border-radius: 8px;
     background: linear-gradient(97deg, #FD9B2B 13.58%, #F14F09 86.99%), #FFF;
     -webkit-text-fill-color: #FFF;
@@ -302,13 +302,13 @@
 
 .slickcard1 {
     border-radius: 8px;
-    box-shadow: 0px 4px 66px 0px rgba(0, 0, 0, 0.04);
+    box-shadow: 0px 4px 66px 10px rgba(0, 0, 0, 0.04);
 
 }
 
 .buttonnxt {
     position: absolute;
-    right: 2%;
+    right: 1%;
     border-radius: 50%;
     border: 1px solid transparent;
     top: -350px;
@@ -318,7 +318,7 @@
 
 .buttonprev {
     position: absolute;
-    left: 2%;
+    left: 1%;
     top: -350px;
     border: 1px solid transparent;
     border-radius: 50%;
@@ -358,7 +358,9 @@
     outline: 0;
 }
 
-
+.svg-1{
+    right: 0;
+}
 
 @media (max-width: 1170px) {
     label[for="icon"] {
@@ -421,7 +423,7 @@
 
     .buttonprev,
     .buttonnxt {
-        top: -25px;
+        top: 15px;
     }
 }
 
@@ -449,5 +451,8 @@
     }
     .bg-black-sm{
         background-color: black;
+    }
+    .svg-1{
+     display: none;
     }
 }
