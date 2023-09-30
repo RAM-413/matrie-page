@@ -13,8 +13,6 @@ $('.slide').slick({
             slidesToShow: 1,
             slidesToScroll: 1,
             infinite: true,
-
-
         }
     },
     {
@@ -22,6 +20,8 @@ $('.slide').slick({
         settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
+            autoplayspeed:100,
+            autoplay:true,
 
         }
     },
